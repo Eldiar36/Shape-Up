@@ -1,0 +1,111 @@
+@media (max-width: 1024px) {
+  .burger {
+    display: block; }
+  .hero-container {
+    max-width: 960px; }
+  section {
+    padding: 35px 0; }
+  .nav_menu ul {
+    display: none; }
+  #hero .hero-container h2 {
+    font-size: 35px;
+    margin-bottom: 25px; } }
+
+@media (max-width: 991px) {
+  .hero-container {
+    max-width: 720px !important;
+    padding-left: 15px;
+    padding-right: 15px; }
+  section {
+    padding: 40px 0; }
+  #about #item-full {
+    padding-top: 30px;
+    padding-left: 0; }
+  #trainers .trainers-row .trainers-box {
+    width: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 30px; }
+    #trainers .trainers-row .trainers-box img {
+      width: 100%; }
+  #programs a {
+    margin-right: 0; }
+  #programs .programs-box {
+    margin-bottom: 30px; }
+    #programs .programs-box .icon {
+      margin-bottom: 30px; }
+    #programs .programs-box .box-info .title {
+      margin-bottom: 25px; }
+    #programs .programs-box .box-info .subtitle {
+      margin-bottom: 25px; }
+  #reviews .box .box-info {
+    text-align: center;
+    padding: 15px; }
+  #gallery .item {
+    height: auto; }
+  #price .box {
+    margin-bottom: 30px;
+    padding: 20px 0; }
+  #news .blog {
+    width: 100%;
+    margin-bottom: 30px; }
+    #news .blog img {
+      width: 100%; }
+  #hero .box h2 {
+    font-size: 32px;
+    margin-bottom: 10px; }
+    #hero .box h2 span {
+      font-size: 40px; }
+  #hero .box .box-btn .button {
+    padding: 15px 39px; }
+  .footer-menu {
+    display: none; } }
+
+@media (max-width: 480px) {
+  #hero {
+    height: 100%; }
+    #hero .box .box-btn .button {
+      margin-bottom: 20px; }
+  .hero-container {
+    padding: 140px 0; }
+  #reviews .box img {
+    max-width: 150px; }
+  #gallery {
+    display: none; }
+  #price .box {
+    height: auto; }
+    #price .box:hover {
+      transform: scale(1); }
+    #price .box .box-title {
+      font-size: 20px;
+      margin-bottom: 20px; }
+      #price .box .box-title span {
+        font-size: 35px; }
+    #price .box .box-description {
+      margin: 20px 0; }
+  #news .blog .blog-info {
+    padding: 15px; }
+    #news .blog .blog-info .blog-subtitle {
+      margin-bottom: 15px; }
+    #news .blog .blog-info .bottom-info {
+      margin-top: 10px; }
+  #contacts h2 {
+    margin-bottom: 45px !important; }
+  #contacts .box p {
+    font-size: 16px;
+    margin-bottom: 30px; }
+  #contacts .box a {
+    padding: 15px 30px; }
+  #main-nav .box {
+    margin-bottom: 30px;
+    text-align: center; }
+    #main-nav .box .logo {
+      justify-content: center; }
+    #main-nav .box .box-description {
+      margin: 20px 0 30px 0; }
+    #main-nav .box .box-social .social {
+      justify-content: center; }
+    #main-nav .box .title {
+      margin-bottom: 20px; } }
+
+/*# sourceMappingURL=responsive.css.map */
